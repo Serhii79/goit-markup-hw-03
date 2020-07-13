@@ -1,0 +1,236 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --description-color: #757575;
+    --title-background-light-color: #ffffff;
+    --title-dark-color: #212121;
+    --accent-color: #2196F3;
+
+}
+
+body {
+    background-color: var(--title-background-light-color);
+    font-family: var(--main-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+
+/* header */
+
+.text-logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;    
+    /* identical to box height */
+    
+    color: var(--accent-color);
+}
+
+.text-logo-black {
+    color: var(--title-dark-color);
+}
+
+.text-logo-white {
+    color: var(--title-background-light-color);
+}
+
+.navigation-list-item,
+.header-address-item {
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navigation-list-item {
+    color: var(--title-dark-color);
+}
+
+.header-address-item {
+    color: var(--description-color);
+}
+
+
+/* main */
+
+/* hero */
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #ffffff; */
+}
+
+.hero-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    background: #188CE8;
+    color: var(--title-background-light-color);
+}
+
+/* features */
+
+.features-description-title {
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--title-dark-color);
+}
+
+.features-description {
+    line-height: 1.71;
+    /* or 171% */
+}
+
+/* specialization */
+
+.specialization-title,
+.team-title,
+.customers-title  {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: var(--title-dark-color);
+}
+
+.specialization-description {
+    font-weight: bold;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* color: #FFFFFF; */
+}
+
+/* team */
+
+/* team-title подключено к .specialization-title */
+
+.team-member,
+.team-position {
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-member {
+    font-weight: 500;
+    
+    color: var(--title-dark-color);
+}
+
+/* social-links-item ожидают следующего урока */
+
+
+/* customers */
+
+/* customers-title подключено к .specialization-title */
+
+
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+/* text-logo link прописан в header */
+
+.footer-address-list {
+    font-style: normal;
+
+    color: var(--title-background-light-color);
+}
+
+.footer-address-item {
+    line-height: 1.71;
+    /* or 171% */
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-social-title {
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--title-background-light-color);
+}
+
+.footer-basement {
+    font-size: 12px;
+    line-height: 2;
+    /* or 200% */
+    text-align: center;
+        
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.portfolio-btn {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+text-align: center;
+
+background: #F5F4FA;
+border-radius: 4px;
+color: var(--title-dark-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background: var(--accent-color);
+    color: var(--title-background-light-color);
+}
+
+.portfolio-main-list-item-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: var(--title-dark-color);
+}
+
+.portfolio-main-description {
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+    text-align: center;
+    text-transform: capitalize;
+}
