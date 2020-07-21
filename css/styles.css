@@ -209,12 +209,42 @@ img {
 
 /* specialization */
 
+.specialization .container {
+    height: 386px;
+}
+
+.specialization-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.specialization-list {
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.specialization-list-item {
+    width: 370px;
+    height: 294px;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.specialization-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.specialization-figure {
+    margin: 0px;
+}
+
 .specialization-description {
     font-weight: bold;
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
-
     /* color: #FFFFFF; */
 }
 
