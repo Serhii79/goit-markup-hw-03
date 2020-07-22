@@ -57,6 +57,10 @@ img {
 
 }
 
+.main-section {
+    margin-bottom: 94px;
+}
+
 
 
 
@@ -254,7 +258,27 @@ img {
 
 .team {
     background-color: var(--background-team-color);
+    height: 702px;
 }
+
+.team-title {
+    margin-top: 0px;
+    padding-top: 94px;
+}
+
+.team-list {
+    width: 1170px;
+    height: 422px;
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 94px;
+    margin: 0px auto;
+}
+
+.team-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .team-member,
 .team-position {
     font-size: 16px;
@@ -266,8 +290,28 @@ img {
 
 .team-member {
     font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
     
     color: var(--title-dark-color);
+}
+
+.team-position {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.social-links-list {
+    width: 206px;
+    height: 44px;
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 24px;
+    margin: 0px auto;
+}
+
+.social-links-list-item:not(:last-child) {
+    margin-right: 10px;
 }
 
 /* social-links-item ожидают следующего урока */
