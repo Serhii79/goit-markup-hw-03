@@ -41,6 +41,7 @@ img {
 
 .list {
     list-style: none;
+    padding-left: 0px;
 }
 
 .link:hover,
@@ -224,7 +225,6 @@ img {
 
 .specialization-list {
     display: flex;
-    padding-left: 0px;
     margin: 0px;
 }
 
@@ -270,7 +270,6 @@ img {
     width: 1170px;
     height: 422px;
     display: flex;
-    padding-left: 0px;
     padding-bottom: 94px;
     margin: 0px auto;
 }
@@ -305,7 +304,6 @@ img {
     width: 206px;
     height: 44px;
     display: flex;
-    padding-left: 0px;
     padding-bottom: 24px;
     margin: 0px auto;
 }
@@ -318,6 +316,10 @@ img {
 
 
 /* customers */
+
+.customers .container {
+    height: 182px;
+}
 
 /* customers-title подключено к .specialization-title */
 
@@ -372,7 +374,6 @@ img {
 .portfolio-btn-list,
 .portfolio-main-list {
     display: flex;
-    padding-left: 0px;
     margin: 0px;
 }
 
