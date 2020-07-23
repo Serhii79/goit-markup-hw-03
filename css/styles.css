@@ -55,11 +55,20 @@ img {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .main-section {
     margin-bottom: 94px;
+}
+
+.hero-title,
+.specialization-title,
+.specialization-list-item,
+.team-title,
+.team-member,
+.team-position,
+.customers-title {
+    margin-top: 0px;
 }
 
 
@@ -144,7 +153,6 @@ img {
     height: 120px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
     margin-bottom: 30px;
     padding-top: 200px;
     text-align: center;
@@ -219,7 +227,6 @@ img {
 }
 
 .specialization-title {
-    margin-top: 0px;
     margin-bottom: 50px;
 }
 
@@ -232,7 +239,6 @@ img {
     width: 370px;
     height: 294px;
     position: relative;
-    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -262,7 +268,6 @@ img {
 }
 
 .team-title {
-    margin-top: 0px;
     padding-top: 94px;
 }
 
@@ -278,6 +283,10 @@ img {
     margin-right: 30px;
 }
 
+.team-item {
+    margin-bottom: 30px;
+}
+
 .team-member,
 .team-position {
     font-size: 16px;
@@ -289,14 +298,12 @@ img {
 
 .team-member {
     font-weight: 500;
-    margin-top: 30px;
     margin-bottom: 10px;
     
     color: var(--title-dark-color);
 }
 
 .team-position {
-    margin-top: 0px;
     margin-bottom: 16px;
 }
 
@@ -319,6 +326,24 @@ img {
 
 .customers .container {
     height: 182px;
+}
+
+.customers-title-list {
+    display: flex;
+}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+
+    border: 1px solid var(--footer-basement-color);
+    border-radius: 4px;
+}
+
+.customers-title-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* customers-title подключено к .specialization-title */
