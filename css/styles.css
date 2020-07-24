@@ -82,7 +82,7 @@ img {
     margin-right: 10px;
 }
 
-/*-праві відступи для списків крім останнього-*/
+/*-всі праві відступи по 30 пікселів для списків-*/
 .header-address-item:not(:last-child),
 .features-list-item:not(:last-child),
 .specialization-list-item:not(:last-child),
