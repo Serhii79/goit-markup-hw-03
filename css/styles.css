@@ -26,7 +26,6 @@ body {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    /*margin-bottom: 50px;*/
 
     color: var(--title-dark-color);
 }
@@ -58,11 +57,11 @@ img {
 }
 
 .main-section {
-    margin-bottom: 94px;
-    /*padding-top: 94px;
-    padding-bottom: 94px;*/
-
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+
+
 
 .specialization-title,
 .specialization-list-item,
@@ -207,6 +206,10 @@ img {
 
 /* features */
 
+.features {
+    padding-bottom: 0px;
+}
+
 .features-list {
     display: flex;
     margin: 0px;
@@ -219,7 +222,7 @@ img {
 
 .features-list-item-picture {
     padding: 25px 100px;
-    
+
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -282,8 +285,6 @@ img {
 .team {
     background-color: var(--background-team-color);
     height: 514px;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team-title {
@@ -443,9 +444,8 @@ img {
 
 /*--porfolio--*/
 
-.portfolio .container {
+.portfolio {
     padding-top: 93px;
-    padding-bottom: 94px;
 }
 
 .portfolio-list-btn {
