@@ -438,13 +438,22 @@ img {
     color: var(--footer-basement-color);
 }
 
+
 /*--porfolio--*/
 
+.portfolio .container {
+    padding-top: 93px;
+    padding-bottom: 94px;
+}
+
 .portfolio-list-btn {
-    width: 611px;
-    height: 54px;    
+    /*width: 611px;
+    height: 54px;*/
+    display: flex;
+    justify-content: center;    
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 34px;
 }
 
 .portfolio-btn-list,
